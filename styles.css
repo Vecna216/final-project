@@ -332,5 +332,56 @@ nav {
 }
 
 .quality__description {
-  
+  max-width: 50%;
+  margin-right: 56px;
+
+}
+
+.quality__img--wrapper {
+  max-width: 50%;
+}
+
+
+
+/* Steps */
+
+.row__steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.steps__img--wrapper {
+  width: 50%;
+}
+
+.steps__description {
+  width: 50%;
+  padding: 32px 0 32px 64px;
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+}
+
+.step__number {
+  color: #cbd5e0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.step__number--description {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.step__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #243e63;
+  line-height: 1;
 }
