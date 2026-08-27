@@ -385,3 +385,66 @@ nav {
   color: #243e63;
   line-height: 1;
 }
+
+/* Values */
+
+.row__values {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.values__description {
+  width: 50%;
+  padding: 32px 64px 32px 0;
+}
+
+.values__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.value {
+  width: 50%;
+  margin-top: 32px;
+  margin-right: 32px;
+}
+
+.value__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.value__title--name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #243e63;
+}
+
+.value__title__img--wrapper--green {
+  background-color: rgb(154, 230, 180);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.value__title__img--wrapper--salmon {
+  background-color: rgb(254, 178, 178);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.value__para {
+  margin-top: 16px;
+  line-height: 1.625;
+  color: #718096;
+}
+
+.values__img--wrapper {
+  width: 50%;
+}
+
+.values__img { 
+  width: 100%;
+}
