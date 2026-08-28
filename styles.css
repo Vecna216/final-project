@@ -762,3 +762,42 @@ nav {
   color: rgba(100, 21, 255);
   border: 0.5px solid #e5e7eb;
 }
+
+
+/* Footer */
+
+.container--foot {
+   background-color: rgb(100, 21, 255);
+}
+
+.footer__row {
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/5);
+  align-items: center;
+}
+
+.link__group--name,
+.foot__link {
+  color: #f7fafc;
+}
+
+.link__group--name {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+
+.foot__link {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
