@@ -549,6 +549,7 @@ nav {
   transition: all 300ms ease;
   border-radius: 9999px;
   width: 100%; 
+  cursor: no-drop;
 }
 
 .plan__button:hover {
@@ -609,3 +610,98 @@ nav {
   border-bottom: 2px solid rgb(102, 126, 234);
 }
 
+/* testimonials */
+
+.row__testimonials{
+  display: flex;
+  flex-direction: row;
+  max-width: 1280px;
+  padding: 0 32px;
+  align-items: center;
+}
+.testimonials__img--wrapper {
+  width: 50%;
+}
+
+.testimonials__text {
+  width: 50%;
+  padding-left: 64px;
+}
+
+.stars {
+  margin-top: 40px;
+}
+
+.stars svg path {
+  fill: #fabf2a;
+}
+
+.testimonials__title {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.testimonials__para {
+  margin-top: 16px;
+  margin-bottom: 32px; 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.testimonials__bottom--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonials__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.testimonials__profile--img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonials__profile--info {
+  margin-left: 16px;
+}
+
+.testimonials__profile--job {
+  color: #7c8ba1;
+  font-size: 14px;
+}
+
+.profile__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile__btn {
+  border-radius: 50%;
+  padding: 16px;
+  margin: 0 8px;
+  background-color: #edf2f7;
+}
+
+.profile__btn:hover {
+  background-color: rgb(229, 231, 235);
+  cursor:no-drop
+}
+
+.btn__spacer {
+  background-color: #edf2f7;
+  width: 1px;
+  height: 20px;
+}
+
+.profile__buttons svg path {
+  fill: #6415ff;
+}
